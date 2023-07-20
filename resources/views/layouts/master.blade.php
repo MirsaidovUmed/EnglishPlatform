@@ -23,7 +23,7 @@
 <body class="">
   <div class="wrapper ">
 
-    <div class="sidebar" data-color="orange">
+    <div class="sidebar" data-color="yellow">
       <!--
         Tip 1: You can change the color of the sidebar using: data-color="blue | green | orange | red | yellow"
     -->
@@ -44,7 +44,7 @@
             </a>
           </li>
           <li class="{{ 'user-register' == request()->path() ? 'active' : '' }}">
-            <a href="/role-register">
+            <a href="/user-register">
               <i class="now-ui-icons users_single-02"></i>
               <p>Пользователи</p>
             </a>
