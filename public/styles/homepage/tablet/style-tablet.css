@@ -1,0 +1,80 @@
+@media screen and (max-width: 1251px){
+	/*header-number*/
+	.header-number p{
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 300;
+	}
+	/*menu*/
+	.menu{
+		gap: 40px;
+	}
+	.menu  li a{
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 400;
+	}
+	/*login*/
+	.login a{
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 400;
+	}
+	.login img{
+		width: 13px;
+		height: 12px;
+	}
+
+
+
+	.main-container{
+		padding: 100px 24px;
+	}
+	.container-select{
+		gap: 50px;
+	}
+	#containerLogo{
+		width: 133px;
+		height: 143px;
+	}
+	#containerTextLogo{
+		width: 179px;
+		height: 49px;
+	}
+	.container-select h1{
+		font-size: 26px;
+		font-style: normal;
+		font-weight: 500;
+	}
+	.select-buttons div{
+		gap: 30px;
+	}
+
+	.select-buttons div button{
+		padding: 15px;
+		width: 199px;
+		height: 67px;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 600;
+	}
+	.select-buttons div button img{
+		width: 49px;
+		height: 37px;
+	}
+
+	footer span p{
+		font-size: 8px;
+		font-style: normal;
+		font-weight: 300;
+	}
+	footer span h2{
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 400;
+	}
+	footer span img{
+		width: 143px;
+		
+	}
+}

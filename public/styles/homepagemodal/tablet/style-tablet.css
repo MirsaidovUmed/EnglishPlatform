@@ -1,0 +1,43 @@
+@media screen and (max-width: 1251px){
+
+	.country-mw{
+		width: 602px;
+		height: auto;
+		flex-shrink: 0;
+		border-radius: 30px;
+		background: #FFF;
+		box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+	}
+	.country-mw h2{
+		color: #000;
+		font-family: Montserrat;
+		font-size: 28px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+	}
+
+
+	.country-mw form > div div label{
+		color: #000;
+		font-family: Montserrat;
+		font-size: 22px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+	}
+
+	.country-mw form button{
+		width: 178px;
+		height: 53px;
+		flex-shrink: 0;
+		border-radius: 10px;
+		background: var(--unnamed, #FF4900);
+		color: #FFF;
+		font-family: Montserrat;
+		font-size: 24px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+}	
+}
