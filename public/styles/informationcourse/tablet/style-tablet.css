@@ -1,0 +1,129 @@
+@media screen and (max-width: 1251px){
+	.logo{
+		width: 33px;
+		height: 34px;
+	}
+	.text-logo{
+		width:54px;
+		height:15px;
+	}
+
+
+	.lang form button{
+		font-size: 8px;
+		font-style: normal;
+		font-weight: 600;
+		padding: 7px 6px;
+		color: white;
+		align-items: start;
+		filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.15));
+	}
+
+	.lang form button img{
+		width: 19.346px;
+		height: 14.025px;	
+		align-self: end;
+	}
+
+	.header-burger-menu img{
+		width: 23px;
+		height: 11px;
+	}
+
+
+	.main-container-cards{
+		padding: 20px;
+		border-radius: 30px;
+		gap: 30px;
+	}
+
+	.card-title h1{
+		font-size: 12px;
+	    font-style: normal;
+	    font-weight: 600;
+	}
+	.card-title span{
+		font-size: 12px;
+	    font-style: normal;
+	    font-weight: 600;
+	    width: 77px;
+	    height: 27px;
+	}
+
+	.card-knowl h2{
+		font-size: 12px;
+	}
+	.card-knowl ul{
+		gap: 10px;
+	}
+	.card-knowl ul li{
+		font-size: 10px;
+	}
+	.card-knowl ul li img{
+		width: 10px;
+
+	}
+
+	.card-bonus h1{
+		font-size: 12px;
+	}
+
+	.bonus-slider-container> div{
+		padding: 15px 10px;
+	}
+	.bonus-slider-container> div img{
+	    width: 94px;	
+	}
+	.bonus-slider-container> div div{
+		gap: 10px;
+	}
+	.bonus-slider-container> div div h2{
+		font-size: 10px;
+	}
+	.bonus-slider-container> div div p {
+	    font-size: 8px;
+	}
+	.card-result div button{
+		padding: 0 15px;
+		height: 30px;
+		background: #fff;
+		color: var(--unnamed, #FF4900);
+		font-family: Montserrat;
+		border-radius: 20px;
+		border: 1px solid #FF4900;
+		font-size: 8px;
+		font-style: normal;
+		font-weight: 600;
+	}
+	.card-result > button{
+		padding: 0 15px;	
+		height: 30px;
+		border-radius: 20px;
+		border: 1px solid var(--unnamed, #FF4900);
+		background: var(--unnamed, #FF4900);
+		color: #FFF;
+		font-family: Montserrat;
+		font-size: 8px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: normal;
+	}
+
+
+
+
+	footer span p{
+		font-size: 8px;
+		font-style: normal;
+		font-weight: 300;
+	}
+	footer span h2{
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 400;
+	}
+	footer span img{
+		width: 143px;
+		
+	}
+}

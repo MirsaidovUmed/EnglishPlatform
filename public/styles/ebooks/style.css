@@ -1,0 +1,278 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Montserrat";
+	transition: .5s;
+}
+
+
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+/*header*/
+header{
+	background: #;
+	box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.06);
+	padding: 8px 20px;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+header div{
+	display: flex;
+	align-items: center;
+}
+
+.header-logo{
+	gap: 10px;
+}
+
+.header-info{
+	gap:30px;
+}
+.header-info p, .header-info li{
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+
+}
+.header-info-cabinet{
+	border-left: 1px #F1F1F1 solid;
+	padding-left: 30px;
+	gap: 10px;
+}
+
+/*Cabinet menu*/
+.cabinet-menu a{
+	text-decoration: none;
+	color: #000;
+}
+.dropdown-content {
+	z-index: 5;
+	border-radius: 10px;
+	background: #FFF;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+	padding: 20px;
+	display: none;
+	gap: 15px;
+	flex-direction: column;
+  	position: absolute;
+  	top: 56px;
+    right: 7px;
+	transition: .5ms;
+}
+.dropdown-content li{
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+#exit{
+	padding-top:10px;
+	border-top: 1px #F1F1F1 solid;
+}
+
+
+/*side-bar*/
+
+.side-bar{
+	position: fixed;
+	max-width: 360px;
+	height: 100%;
+	background: #F8F8F8;
+	box-shadow: 2px 0px 5px 0px rgba(0, 0, 0, 0.10);
+	padding: 25px 50px;
+	display: flex;
+	flex-direction: column;
+	overflow-y: scroll;
+	gap: 40px;
+}
+.side-bar::-webkit-scrollbar {
+    width: 10px;
+}
+.side-bar::-webkit-scrollbar-track {
+    background-color: darkgrey;
+}
+
+.side-bar-info{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 7px;
+}
+.side-bar-info h2{
+	margin-top: 13px;
+	font-size: 20px;
+	font-weight: 600;
+}
+.side-bar-info p{
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.side-bar-menu{
+
+}
+.side-bar-menu ul{
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+.side-bar-menu ul li{
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+.side-bar-menu ul li a{
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+}
+.side-bar-menu ul li a:hover{
+	transition: .5s;
+	color: #FF4900;
+}
+
+
+.side-bar-nav{
+	display: flex;
+}
+.side-bar-nav-container{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 5px;
+}
+.side-bar-nav-container div{
+	width: 121px;
+/*	height: 68px;*/
+	height: min-content;
+	border-radius: 7px;
+	background: #FFF;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+	padding: 10px 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+	text-align: center;
+}
+.side-bar-nav-container div p{
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.side-bar-nav-container div:hover{
+	transform: scale(1.05);
+	transition: .5s;
+}
+
+.side-bar-footer{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	margin-bottom: 20px;
+}
+
+.side-bar-footer p{
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+}
+
+
+/*books*/
+.books{
+	width: -webkit-fill-available;
+	height: -webkit-fill-available;
+    position: fixed;
+    left: 360px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.books-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.books-title h1{
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 600;
+}
+.books-title p {
+   	max-width: 398px;
+    font-size: 10px;
+    color: #000;
+	font-weight: 200;
+	line-height: normal;
+	padding: 5px;
+	border-radius: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.20);
+}
+.books-content{
+	height:-webkit-fill-available ;
+	width: -webkit-fill-available;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+
+}
+.books-content-line{
+	display: flex;
+	justify-content: space-around;
+}
+.content-line-book{
+	display: flex;
+	gap: 10px;
+}
+
+
+.content-line-book img{
+    max-width: 150px;
+	height: fit-content;
+}
+
+.content-line-book div{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.content-line-book div h2{
+	font-size: 16px;
+    font-weight: 500;
+    color: #FF4900;
+}
+.content-line-book div ul {
+	display: flex;
+	gap: 5px;
+	flex-direction: column;
+}
+.content-line-book div ul li{
+	font-size: 12px;
+    font-weight: 400;
+}
+.content-line-book div button{
+	background: white;
+	border-radius: 10px;
+	border: 1px solid var(--unnamed, #FF4900);
+	padding: 10px;
+}
+
+.content-line-book div button:hover{
+	background-color:#FF4900 ;
+	color: white;
+}

@@ -1,0 +1,167 @@
+@media screen and (max-width: 1251px){
+	.logo{
+		width: 33px;
+		height: 34px;
+	}
+	.text-logo{
+		width:54px;
+		height:15px;
+	}
+	.header-info p, .header-info li{
+		font-size: 8px;
+		font-style: normal;
+		font-weight: 400;
+	}
+	.header-info-cabinet img{
+		width: 18px;
+		height: 18px;
+	}
+	/*side-bar*/
+	.side-bar{
+		background: #F1F1F1;
+		gap: 25px;
+		padding: 20px;
+		max-width:210px ;
+	}
+	.side-bar-info{
+		gap: 0;
+	}
+	.side-bar-info img{
+		width: 86px;
+		height: 80px;
+	}
+	.side-bar-info h2{
+		margin-top: 5px;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 600;
+	}
+	.side-bar-info p{
+		font-size: 8px;
+		font-style: normal;
+		font-weight: 400;
+	}
+
+	.side-bar-menu ul{
+		gap: 10px;
+	}
+	.side-bar-menu ul li{
+		gap: 5px;
+	}
+	.side-bar-menu ul li img{
+		width: 12px;
+		height: 15px;
+	}
+	.side-bar-menu ul li a{
+		font-size: 10px;
+		font-style: normal;
+		font-weight: 400;
+	}
+	
+	.side-bar-nav-container div{
+		width: 75px;
+		height: min-content;
+	}
+	.side-bar-nav-container div p{
+		font-size: 9px;
+		font-style: normal;
+		font-weight: 400;
+	}
+	.side-bar-nav-container div img{
+		width: 15px;
+		height: 15px;
+	}
+	.side-bar-footer p{
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 500;
+	}
+	.side-bar-footer img{
+		width: 152.999px;
+		margin-bottom: 30px;
+	}
+
+
+
+	.course-level{
+		margin: 30px;
+		position: fixed;
+		left: 210px;
+	}
+
+	.level{
+		padding: 15px;
+		border-radius: 20px;
+	}
+
+	.info-title h1{
+		font-size: 12px;
+	    font-style: normal;
+	    font-weight: 600;
+	}
+	.info-title span {
+	    font-size: 8px;
+	    font-style: normal;
+	    font-weight: 600;
+	    width: 42px;
+	    height: 18px;
+	}
+	.info-knowl{
+		gap: 15px;
+	}
+	.info-knowl h2{
+		font-size: 12px;
+	}
+	.info-knowl ul{
+		gap: 10px;
+	}
+	.info-knowl ul li{
+		font-size: 10px;
+	}
+	.info-knowl ul li img{
+		width: 10px;
+
+	}
+
+	.info-bonus h1{
+		font-size: 12px;
+	}
+
+	.info-startbutton p{
+		font-size: 8px;
+	}
+	.info-startbutton button{
+		font-size: 10px;
+		padding: 5px 5px;
+/*		width: 200px;*/
+	}
+
+	.level-info-container{
+		margin-left: 5px;
+		padding-left: 5px;
+	    gap: 15px;	
+	}
+	
+	.level-how-container {
+	    display: flex;
+	    flex-direction: column;
+	    gap: 14px;
+	    width: -webkit-fill-available;
+	}
+	.level-how-container ul li img{
+		width: 4%;
+	}
+	.level-how-container h1 {
+	    font-size: 12px;
+	    font-style: normal;
+	    font-weight: 600;
+	}	
+	.level-how-container ul {
+	    gap: 15px;
+	}
+
+	.level-how-container ul li {
+        font-size: 10px;
+	}
+
+}

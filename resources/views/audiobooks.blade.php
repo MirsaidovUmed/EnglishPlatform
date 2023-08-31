@@ -4,27 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Аудио книги</title>
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./styles/tablet/style-tablet.css">
+    <link rel="stylesheet" href="./styles/abooks/style.css">
+    <link rel="stylesheet" href="./styles/abooks/tablet/style-tablet.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
 <header>
     <div class="header-logo">
-        <img src="./images/desktop/logo.png" alt="logo" class="logo">
-        <img src="./images/desktop/text-logo.png" alt="text-logo" class="text-logo">
+        <img src="./images/abooks/desktop/logo.png" alt="logo" class="logo">
+        <img src="./images/abooks/desktop/text-logo.png" alt="text-logo" class="text-logo">
     </div>
     <div class="header-info">
         <p>Техническая поддержка: student@skillgate.tj</p>
         <div class="header-info-cabinet">
-            <img src="./images/icons/user.png" alt="">
+            <img src="./images/abooks/icons/user.png" alt="">
 
             <ul class="cabinet-menu">
                 <li class="dropdown"><a href="#">Махмудов Сорбон</a>
                     <ul class="dropdown-content">
-                        <li><img src="./images/icons/cabinet-user.png" alt=""><a href="#">Мой профиль</a></li>
-                        <li><img src="./images/icons/cabinet-settings.png" alt=""><a href="#">Настройки</a></li>
-                        <li id="exit"><img src="./images/icons/cabinet-exit.png" alt="" > <a href="#">Выход</a></li>
+                        <li><img src="./images/abooks/icons/cabinet-user.png" alt=""><a href="#">Мой профиль</a></li>
+                        <li><img src="./images/abooks/icons/cabinet-settings.png" alt=""><a href="#">Настройки</a></li>
+                        <li id="exit"><img src="./images/abooks/icons/cabinet-exit.png" alt="" > <a href="#">Выход</a></li>
                     </ul>
                 </li>
             </ul>
@@ -33,54 +33,54 @@
 </header>
 <div class="side-bar">
     <div class="side-bar-info">
-        <img src="./images/icons/side-user.png" alt="side-user.png">
+        <img src="./images/abooks/icons/side-user.png" alt="side-user.png">
         <h2>Махмудов Сорбон</h2>
         <p>Уровень: Beginner - Elementary</p>
     </div>
     <div class="side-bar-menu">
         <ul>
-            <li><img src="./images/icons/side-main.png" alt="side-main.png"><a href="">Главная</a></li>
-            <li><img src="./images/icons/side-course.png" alt="side-course.png"><a href="">Курс</a></li>
-            <li><img src="./images/icons/side-marks.png" alt="side-marks.png"><a href="">Оценки</a></li>
+            <li><img src="./images/abooks/icons/side-main.png" alt="side-main.png"><a href="">Главная</a></li>
+            <li><img src="./images/abooks/icons/side-course.png" alt="side-course.png"><a href="">Курс</a></li>
+            <li><img src="./images/abooks/icons/side-marks.png" alt="side-marks.png"><a href="">Оценки</a></li>
         </ul>
     </div>
     <div class="side-bar-nav">
         <div class="side-bar-nav-container">
             <div>
                 <p>Грамматика</p>
-                <img src="./images/icons/nav-grammar.png" alt="nav-grammar.png">
+                <img src="./images/abooks/icons/nav-grammar.png" alt="nav-grammar.png">
             </div>
             <div>
                 <p>Видео</p>
-                <img src="./images/icons/nav-video.png" alt="nav-video.png">
+                <img src="./images/abooks/icons/nav-video.png" alt="nav-video.png">
             </div>
             <div>
                 <p>Словарь</p>
-                <img src="./images/icons/nav-vocab.png" alt="nav-vocab.png">
+                <img src="./images/abooks/icons/nav-vocab.png" alt="nav-vocab.png">
             </div>
             <div>
                 <p>Эл. книги</p>
-                <img src="./images/icons/nav-elbook.png" alt="nav-elbook.png">
+                <img src="./images/abooks/icons/nav-elbook.png" alt="nav-elbook.png">
             </div>
             <div>
                 <p>Аудиокниги</p>
-                <img src="./images/icons/nav-audiobook.png" alt="nav-audiobook.png">
+                <img src="./images/abooks/icons/nav-audiobook.png" alt="nav-audiobook.png">
             </div>
             <div>
                 <p>Музыка</p>
-                <img src="./images/icons/nav-music.png" alt="nav-music.png">
+                <img src="./images/abooks/icons/nav-music.png" alt="nav-music.png">
             </div>
             <div>
                 <p>Фильмы</p>
-                <img src="./images/icons/nav-movie.png" alt="nav-movie.png">
+                <img src="./images/abooks/icons/nav-movie.png" alt="nav-movie.png">
             </div>
             <div>
                 <p>Онлайн чат</p>
-                <img src="./images/icons/nav-chat.png" alt="nav-chat.png">
+                <img src="./images/abooks/icons/nav-chat.png" alt="nav-chat.png">
             </div>
             <div>
                 <p>Cпикинг клуб</p>
-                <img src="./images/icons/nav-spclub.png" alt="nav-spclub.png">
+                <img src="./images/abooks/icons/nav-spclub.png" alt="nav-spclub.png">
             </div>
 
         </div>
@@ -89,7 +89,7 @@
         <p>Для связи:
             (+992) 987 65 4321</p>
         <p>Мы в социальных сетях:</p>
-        <img src="./images/icons/side-social.png" alt="side-social.png">
+        <img src="./images/abooks/icons/side-social.png" alt="side-social.png">
     </div>
 </div>
 
@@ -101,7 +101,7 @@
     <div class="books-content">
         <div class="books-content-line">
             <div class="content-line-book">
-                <img src="./images/icons/book.png" alt="">
+                <img src="./images/abooks/icons/book.png" alt="">
                 <div>
                     <h2>Rich dad and poor dad</h2>
                     <ul>
@@ -116,7 +116,7 @@
                 </div>
             </div>
             <div class="content-line-book">
-                <img src="./images/icons/book.png" alt="">
+                <img src="./images/abooks/icons/book.png" alt="">
                 <div>
                     <h2>Rich dad and poor dad</h2>
                     <ul>
@@ -133,7 +133,7 @@
         </div>
         <div class="books-content-line">
             <div class="content-line-book">
-                <img src="./images/icons/book.png" alt="">
+                <img src="./images/abooks/icons/book.png" alt="">
                 <div>
                     <h2>Rich dad and poor dad</h2>
                     <ul>
@@ -148,7 +148,7 @@
                 </div>
             </div>
             <div class="content-line-book">
-                <img src="./images/icons/book.png" alt="">
+                <img src="./images/abooks/icons/book.png" alt="">
                 <div>
                     <h2>Rich dad and poor dad</h2>
                     <ul>
@@ -167,6 +167,6 @@
 </div>
 
 
-<script src="./scripts/app.js"></script>
+<script src="./scripts/abooks/app.js"></script>
 </body>
 </html>
