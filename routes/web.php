@@ -18,6 +18,77 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/accountandcources', function (){
+    return view('accountandcourses');
+});
+
+Route::get('/additionalsettings', function (){
+    return view('additionalsettings');
+});
+
+Route::get('/audiobooks', function (){
+    return view('audiobooks');
+});
+
+Route::get('/course', function () {
+    return view('course');
+});
+
+Route::get('/ebooks', function () {
+    return view('ebooks');
+});
+
+Route::get('/editprofile', function () {
+    return view('editprofile');
+});
+
+Route::get('/evaluation', function () {
+    return view('evaluation');
+});
+
+Route::get('/films', function () {
+    return view('films');
+});
+
+Route::get('/grammar', function () {
+    return view('grammar');
+});
+
+Route::get('/informationcourse', function () {
+    return view('informationcourse');
+});
+
+Route::get('/music', function () {
+    return view('music');
+});
+
+Route::get('/myprofile', function () {
+    return view('myprofile');
+});
+
+Route::get('/newaccount', function () {
+    return view('newaccount');
+});
+
+Route::get('/onlinechat', function () {
+    return view('onlinechat');
+});
+
+Route::get('/paymentmethod', function () {
+    return view('paymentmethod');
+});
+
+Route::get('/registration', function () {
+    return view('registration');
+});
+
+Route::get('/speakingclub', function () {
+    return view('speakingclub');
+});
+
+Route::get('/lookvideo', function () {
+    return view('lookvideo');
+});
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
