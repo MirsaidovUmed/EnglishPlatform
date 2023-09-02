@@ -86,9 +86,34 @@ Route::get('/speakingclub', function () {
     return view('speakingclub');
 });
 
-Route::get('/lookvideo', function () {
-    return view('lookvideo');
+Route::get('/test1', function () {
+    return view('test1');
 });
+
+Route::get('/test2', function () {
+    return view('test2');
+});
+
+Route::get('/test3', function () {
+    return view('test3');
+});
+
+Route::get('/tests', function () {
+    return view('tests');
+});
+
+Route::get('/video', function () {
+    return view('video');
+});
+
+Route::get('/vocabulary', function () {
+    return view('vocabulary');
+});
+
+Route::get('/vocabularyword', function () {
+    return view('vocabularyword');
+});
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

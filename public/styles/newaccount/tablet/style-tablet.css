@@ -1,0 +1,87 @@
+@media screen and (max-width: 1251px){
+
+	/*side-bar*/
+	.side-bar{
+		background: #F1F1F1;
+		gap: 25px;
+		padding: 20px;
+		width: 280px;
+		gap: 105px;
+
+	}
+	#sideBarLogo{
+		width: 80px;
+		height: 85px;	
+	}
+	#sideBarTextLogo{
+		width: 134px;
+		height: 32px;	
+	}
+
+
+
+
+
+	.side-bar-pay h2,.side-bar-accyet h2{
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 600;
+	}
+	.side-bar-pay p{
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 300;	
+	}
+
+	.side-bar-accyet button{
+		width: 207px;
+		height: 40px;
+	}
+	.side-bar-accyet button a{
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 500;
+	}
+
+	.side-bar-footer p{
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 500;
+	}
+	.side-bar-footer img{
+		width: 152.999px;
+		margin-bottom: 30px;
+	}
+
+
+
+	.new-account{
+		left: 280px;
+		margin: 30px;
+		gap: 19px
+	}
+	.new-account-title h1{
+		font-size: 18px;
+	}
+	.new-account-title a{
+		font-size: 14px;
+	}
+	.accounts-inputs div label{
+		font-size: 14px;
+	}
+
+	.accounts-inputs div label input{
+		padding:10px 10px;
+	    height: auto;
+	    border-radius: 5px;
+	}
+	.accounts-pay div img{
+		width: 100px;
+	}
+
+	.accounts-pay button{
+		height: auto;
+	}
+
+
+}

@@ -1,0 +1,159 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Montserrat";
+	transition: .5s;
+}
+
+
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+body{
+	display: flex;
+}
+
+/*side-bar*/
+.side-bar{
+	position: fixed;
+	width: 485px;
+	height: 100%;
+	background: #F8F8F8;
+	box-shadow: 2px 0px 5px 0px rgba(0, 0, 0, 0.10);
+	padding: 20px 50px;
+	display: flex;
+	flex-direction: column;
+	overflow-y: scroll;
+	gap: 200px;
+}
+.side-bar::-webkit-scrollbar {
+    width: 10px;
+}
+.side-bar::-webkit-scrollbar-track {
+    background-color: darkgrey;
+}
+
+.side-bar-logo{
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+
+.side-bar-pay{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.side-bar-pay h2,.side-bar-accyet h2{
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 600;
+}
+.side-bar-pay p{
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 300;
+}
+.side-bar-accyet{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.side-bar-accyet button{
+	width: 355px;
+	height: 50px;
+	border-radius: 5px;
+	border: 1px solid  #FF4900;
+	background: #fff;
+}
+.side-bar-accyet button a{
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 600;
+	color: #FF4900;
+
+}
+
+
+
+.side-bar-footer{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	margin-bottom: 20px;
+}
+
+.side-bar-footer p{
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+}
+
+.main-container{
+	max-width: 1144px;
+	padding: 0 24px;
+	margin: 0 auto;
+}
+
+
+
+.pay-method{
+	width: -webkit-fill-available;
+	position: fixed;
+	left: 485px;
+	margin: 50px;
+	gap: 40px;
+	display: flex;
+	flex-direction: column;
+}
+.pay-method > span{
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 200;
+}
+.pay-method-title{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.pay-method-title h1{
+	font-size: 26px;
+	font-style: normal;
+	font-weight: 600;
+}
+
+
+.amount-pay{
+	width: fit-content;
+	padding: 18px 35px;
+	border-radius: 10px;
+	border: 1px solid var(--unnamed, #FF4900);
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+.pay-cards{
+
+}
+.pay-cards div{
+	height: 60px;
+	border-top:1px solid rgba(0, 0, 0, 0.20);
+	display: flex;
+    align-items: center;
+    gap: 10px;
+}
+

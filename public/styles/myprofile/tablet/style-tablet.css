@@ -1,0 +1,159 @@
+@media screen and (max-width: 1251px){
+	.logo{
+		width: 33px;
+		height: 34px;
+	}
+	.text-logo{
+		width:54px;
+		height:15px;
+	}
+	.header-info p, .header-info li{
+		font-size: 8px;
+		font-style: normal;
+		font-weight: 400;
+	}
+	.header-info-cabinet img{
+		width: 18px;
+		height: 18px;
+	}
+	/*side-bar*/
+	.side-bar{
+		background: #F1F1F1;
+		gap: 25px;
+		padding: 20px;
+		max-width:210px ;
+	}
+	.side-bar-info{
+		gap: 0;
+	}
+	.side-bar-info img{
+		width: 86px;
+		height: 80px;
+	}
+	.side-bar-info h2{
+		margin-top: 5px;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 600;
+	}
+	.side-bar-info p{
+		font-size: 8px;
+		font-style: normal;
+		font-weight: 400;
+	}
+
+	.side-bar-menu ul{
+		gap: 10px;
+	}
+	.side-bar-menu ul li{
+		gap: 5px;
+	}
+	.side-bar-menu ul li img{
+		width: 12px;
+		height: 15px;
+	}
+	.side-bar-menu ul li a{
+		font-size: 10px;
+		font-style: normal;
+		font-weight: 400;
+	}
+	
+	.side-bar-nav-container div{
+		width: 75px;
+		height: min-content;
+	}
+	.side-bar-nav-container div p{
+		font-size: 9px;
+		font-style: normal;
+		font-weight: 400;
+	}
+	.side-bar-nav-container div img{
+		width: 15px;
+		height: 15px;
+	}
+	.side-bar-footer p{
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 500;
+	}
+	.side-bar-footer img{
+		width: 152.999px;
+		margin-bottom: 30px;
+	}
+
+
+
+	.new-account{
+		left: 280px;
+		margin: 30px;
+		gap: 19px
+	}
+	.new-account-title h1{
+		font-size: 18px;
+	}
+	.new-account-title a{
+		font-size: 14px;
+	}
+	.accounts-inputs div label{
+		font-size: 14px;
+	}
+
+	.accounts-inputs div label input{
+		padding:10px 10px;
+	    height: auto;
+	    border-radius: 5px;
+	}
+	.accounts-pay div img{
+		width: 100px;
+	}
+
+	.accounts-pay button{
+		height: auto;
+	}
+	.my-profile{
+		left:210px ;
+	}
+
+
+	.my-profile-title h1 {
+	    font-size: 20px;
+	    font-style: normal;
+	    font-weight: 600;
+	}
+	.accounts-pay div button{
+		padding: 10px 10px;
+	}
+
+	#settingsBlock form h2{
+		font-size: 14px;
+	}
+	#settingsBlock form ul li {
+	    width: -webkit-fill-available;
+	}
+	#settingsBlock form ul li span{
+		font-size: 12px;
+	}
+	#settingsBlock form ul {
+	    gap: 15px;
+	}
+	#settingsBlock form ul li input {
+	    width: -webkit-fill-available;
+	    height: 40px;
+	    border-radius: 5px;
+	    border: 0.5px solid #000;
+	    padding: 10px;
+	}
+	.save-settings button {
+	    font-size: 10px;
+	    padding: 8px 10px;
+	
+	}
+	.save-settings label {
+	    font-size: 12px;
+	    font-style: normal;
+	    font-weight: 500;
+	    display: flex;
+	    align-items: center;
+	    gap: 5px;
+	}
+}
