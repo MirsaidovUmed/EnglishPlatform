@@ -58,6 +58,10 @@ Route::get('/informationcourse', function () {
     return view('informationcourse');
 });
 
+Route::get('/marks', function () {
+    return view('marks');
+});
+
 Route::get('/music', function () {
     return view('music');
 });
